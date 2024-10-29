@@ -45,4 +45,3 @@ jobs:
 
       - name: Run standard.rb
         run: bundle exec rake standard
-        if: ${{ ! startsWith(matrix.ruby, '2.') }}
